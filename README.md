@@ -5,20 +5,20 @@ Some notes and code about Programming Models for Parallel Computing
 
 1. MPI can be downloaded from [here](http://www.mpich.org/downloads/)
 
-Or you can use:
+    Or you can use:
 
 ```sh
 wget http://www.mpich.org/static/downloads/3.3.2/mpich-3.3.2.tar.gz
 ```
 In this note, I use [mpich-3.3.2](http://www.mpich.org/static/downloads/3.3.2/mpich-3.3.2.tar.gz)
 
-2. Decompress
+2. Decompress.
 
 ```
 tar -zxvf mpich-3.3.2.tar.gz
 ```
 
-3. Configure
+3. Configure.
 
 ```
 cd mpich-3.3.2;
@@ -26,11 +26,11 @@ cd mpich-3.3.2;
 make;
 sudo make install;
 ```
-4. Check
+4. Check.
 
-You can check the result by `mpiexec --version`.
+    You can check the result by `mpiexec --version`.
 
-You will see something similar like this if you built successfully.
+    You will see something similar like this if you built successfully.
 
 ```
 HYDRA build details:
