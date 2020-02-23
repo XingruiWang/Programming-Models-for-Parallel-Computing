@@ -49,3 +49,19 @@ HYDRA build details:
     Checkpointing libraries available:       
     Demux engines available:                 poll select
 ```
+
+### MPI Programming
+
+1. Make compiling.
+
+Compile hello_world.c 
+
+```sh
+mpicc -o hello_world hello_world.c
+```
+
+2. Run the file.
+
+```sh
+mpirun -n <number of MPI processes> ./hello_world
+```
