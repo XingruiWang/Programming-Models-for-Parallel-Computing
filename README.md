@@ -1,5 +1,5 @@
 # Programming-Models-for-Parallel-Computing
-Some notes and code about Programming Models for Parallel Computing
+Some notes and codes about Programming Models for Parallel Computing
 
 ### Download MPI
 
