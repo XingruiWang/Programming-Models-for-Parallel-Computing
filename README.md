@@ -54,7 +54,7 @@ HYDRA build details:
 
 1. Make compiling.
 
-Compile hello_world.c 
+   e,g. Compile hello_world.c 
 
 ```sh
 mpicc -o hello_world hello_world.c
