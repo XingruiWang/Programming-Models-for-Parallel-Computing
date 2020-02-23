@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[])
 {
-    static int MAX_MSG_SIZE = 10;
+    const int MAX_MSG_SIZE = 10;
     int msg[10]={1,2,3,4,5,6,7,8,9,10};
     int i, rank, size;
     int msgsize = sizeof(msg)/sizeof(int);
@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
             printf("%d",msg[j]);
         }
         printf("\n");
+    MPI_Finalize();
     }
     return 0;
 }
